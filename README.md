@@ -1,6 +1,7 @@
 Yii2 Nestable
 =============
-Yii2 extension based on dbushell/Nestable
+Yii2 extension based on [dbushell/Nestable](https://github.com/dbushell/Nestable)
+This is bundle on jquery.nestable.js
 
 Installation
 ------------
@@ -25,7 +26,7 @@ to the require section of your `composer.json` file.
 Usage
 -----
 
-Once the extension is installed, simply use it in your code by  :
+Once the extension is installed, simply use it in your code in view by  :
 
 ```php
-<?= \singrana\nestable\AutoloadExample::widget(); ?>```
+singrana\NestableBundle::register($this);```
