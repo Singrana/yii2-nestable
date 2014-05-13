@@ -1,5 +1,5 @@
 <?php
-namespace app\widgets\Nestable;
+namespace singrana\nestable;
 use yii\web\AssetBundle;
 
 class NestableBundle extends AssetBundle
